@@ -1627,7 +1627,7 @@ Java_net_rpcs3_RPCS3_initialize(JNIEnv *env, jobject, jstring rootDir) {
   g_cfg.video.shadermode.set(shader_mode::async_recompiler);
   g_cfg.core.ppu_decoder.set(ppu_decoder_type::llvm);
   g_cfg.core.spu_decoder.set(spu_decoder_type::llvm);
-  g_cfg.core.llvm_cpu.from_string("cortex-a34");
+  g_cfg.core.llvm_cpu.from_string("cortex-a76");
   // g_cfg.core.llvm_cpu.from_string(fallback_cpu_detection());
   g_cfg.video.perf_overlay.perf_overlay_enabled.set(true);
 
